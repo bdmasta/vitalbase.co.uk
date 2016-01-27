@@ -1,0 +1,48 @@
+---
+layout: page
+title: Vitalbase - Automatic fall detector
+excerpt: The highest level of independance and freedom for the elderly!
+---
+
+
+<div class="container-fluid wide">
+  <div class="rev_slider_wrapper">
+    <div id="hero-home" class="rev_slider"  data-version="5.0">
+      <ul>
+        <li data-transition="notransition" data-link="{{site.url}}/">
+          <!-- MAIN IMAGE -->
+          <img src="//assetsvitalbase.s3.amazonaws.com/img/bg-hero.jpg" data-bgposition="center top" alt="">
+            <!--LAYERS-->
+            <!--LAYER 1-->
+          <div class="tp-caption tp-resizeme"
+            data-responsive_offset="on"
+            data-x="center"
+            data-y="center">
+            <h1 class="tp-hero-h1 primary-color text-center">Independancy <span class ="tp-hero-connected primary-color-dark">connected</span></h1>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+
+<script>
+jQuery(document).ready(function() {
+  revapi = jQuery("#hero-home").revolution({
+    sliderType:"hero",
+    sliderLayout:"fullscreen",
+    gridwidth:1900,
+    autoHeight: "off",
+    fullScreenOffset: "84",
+    fullScreenAutoWidth: "off",
+    fullScreenAlignForce: "off",
+  });
+});
+</script>
+
+
+
+
+  {% include positioning.html %}
+  {% include offers.html %}

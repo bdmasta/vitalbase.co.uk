@@ -1,0 +1,57 @@
+<div class="offers">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-6 offer offer-click offer-vibbyoak" data-href="{{site.url}}/products/vibby-oak">
+          <img class="offer-product-picture" id="vibbyoak" src="//assetsvitalbase.s3.amazonaws.com/img/vibbyoak-detectors.png"></img>
+          <div class="offer-content">
+            <img class="img-responsive center-block offer-picto" src="//assetsvitalbase.s3.amazonaws.com/img/vibbyoak-picto.png"></img>
+            <div  class="offer-slogan text-center">
+              <h2 class="offer-sloganl1">The reference</h2>
+              <h3 class="offer-sloganl2">in automatic fall detection</h3>
+            </div>
+            <a class="btn btn-bg-white-second btn-m hidden-xs hidden-sm offer-cta" href="{{site.url}}/products/vibby-oak" role="button"><i class="fa fa-chevron-right"></i> Discover</a>
+            <a class="btn btn-bg-white-second hidden-xs hidden-md hidden-lg offer-cta" href="{{site.url}}/products/vibby-oak" role="button"><i class="fa fa-chevron-right"></i> Discover</a>
+          </div>
+      </div>
+      <div class="col-md-6 bg-primary-color offer offer-click offer-vibbyleaf" data-href="{{site.url}}/products/vibby-leaf">
+        <img class="offer-product-picture" id="vbr" src="//assetsvitalbase.s3.amazonaws.com/img/vbr.png"></img>
+        <div class="offer-content">
+          <img class="img-responsive center-block offer-picto" src="//assetsvitalbase.s3.amazonaws.com/img/vibbyleaf-picto.png"></img>
+          <div class="offer-slogan text-center">
+            <h2 class="offer-sloganl1">The gateway</h2>
+            <h3 class="offer-sloganl2">for designing IoT solutions</h3>
+          </div>
+          <a class="btn btn-bg-white-primary btn-m hidden-xs hidden-sm offer-cta" href="{{site.url}}/products/vibby-leaf" role="button"><i class="fa fa-chevron-right"></i> Discover</a>
+          <a class="btn btn-bg-white-primary hidden-xs hidden-md hidden-lg offer-cta" href="{{site.url}}/products/vibby-leaf" role="button"><i class="fa fa-chevron-right"></i> Discover</a>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-4 offer offer-lifemonitoring">
+        <div class="offer-content center-block" style="width:100%;">
+          <img class="img-responsive center-block offer-picto"></img>
+          <div class="offer-slogan text-center">
+            <h2 class="offer-sloganl1" style="font-size:2vw;">Home monitoring</h2>
+            <h3 class="offer-sloganl2 soon" style="font-size:1.2vw;">coming soon</h3>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-8 offer offer-disease">
+        <div class="offer-content">
+          <img class="img-responsive center-block offer-picto"></img>
+          <div class="offer-slogan text-center">
+            <h2 class="offer-sloganl1" style="font-size:2vw;">Chronic diseases</h2>
+            <h3 class="offer-sloganl2 soon" style="font-size:1.2vw;">coming soon</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+$(".offer-click").click(function() {
+  window.location = $(this).data("href");
+  return false;
+});
+</script>

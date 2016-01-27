@@ -1,0 +1,125 @@
+---
+layout: page
+title: Vitalbase - Get in touch
+excerpt: Do not hesitate to contact us if you want more informations.
+name: contact
+permalink: contact
+---
+
+
+<div class="container-fluid wide">
+  <div class="rev_slider_wrapper">
+    <div id="hero-vibbyoak" class="rev_slider"  data-version="5.0">
+      <ul>
+        <li data-transition="notransition" data-link="{{site.url}}/vibby-oak/">
+          <!-- MAIN IMAGE -->
+          <img src="//assetsvitalbase.s3.amazonaws.com/img/hero-contact.jpg" data-bgposition="center top" alt="" width="1960" height="770">
+          <!--LAYERS-->
+          <!--LAYER 1 H1 Title IoT gateway-->
+          <div class="tp-caption tp-resizeme"
+          data-x="center"
+          data-y="50"
+          data-responsive_offset="on">
+          <h1 class="primary-color" style="font-size:60px;">Get in touch</h1>
+        </div>
+          <div class="tp-caption tp-resizeme"
+          data-x="center"
+          data-y="center"
+          data-responsive_offset="on">
+          <img src="//assetsvitalbase.s3.amazonaws.com/img/hero-contact-hexagon.png" data-ww="378" data-hh="393">
+        </div>
+          <div class="tp-caption tp-resizeme"
+          data-x="828"
+          data-y="168"
+          data-responsive_offset="on">
+          <i class="fa fa-vitalbase-logo fa-4x text-white" style="font-size:242px;"></i>
+        </div>
+          <div class="tp-caption tp-resizeme"
+          data-x="840"
+          data-y="336"
+          data-responsive_offset="on">
+          <address class="text-white text-center light" style="font-size:18px;">Zone Actipolis II<br>2, bis rue Nully de Harcourt<br>33610 CANEJAN (FRANCE)</address>
+        </div>
+        <div class="tp-caption tp-resizeme"
+        data-x="840"
+        data-y="430"
+        data-responsive_offset="on">
+        <span class="text-white bold opensans"  style="font-size:20px"><i class="fa fa-vbc-email"></i> contact@vitalbase.co.uk</span>
+      </div>
+      <div class="tp-caption tp-resizeme"
+      data-x="840"
+      data-y="470"
+      data-responsive_offset="on">
+      <span class="text-white bold opensans"  style="font-size:20px"><i class="fa fa-vbc-contact"></i> +33 (0)557 356 370</span>
+    </div>
+
+        <!--LAYER 2 Logo hexagon Vibby LEAF-->
+
+
+
+    </li>
+  </ul>
+</div>
+</div>
+</div>
+
+<script>
+jQuery(document).ready(function() {
+  revapi = jQuery("#hero-vibbyoak").revolution({
+    sliderType:"hero",
+    gridwidth:1900,
+    gridheight:768
+  });
+});
+</script>
+
+<section class="contact">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <form name="sentMessage" id="contactForm" class="vitalbase-form" novalidate>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="form-group vitalbase-form-group">
+                <input type="text" name="name" class="form-control input-lg"  placeholder="Name *" id="name" required data-validation-required-message="Please enter your name.">
+                <p class="help-block text-danger"></p>
+              </div>
+              <div class="form-group vitalbase-form-group">
+                <input type="email" name="email" id="email" class="form-control input-lg" placeholder="Email *"  required data-validation-required-message="Please enter your email address.">
+                <p class="help-block text-danger"></p>
+              </div>
+              <div class="form-group vitalbase-form-group">
+                <input type="text" name="company" id="company" class="form-control input-lg" placeholder="Company *" required data-validation-required-message="Please enter your company.">
+                <p class="help-block text-danger"></p>
+              </div>
+              <div class="form-group">
+                  <input type="address" class="form-control" id="address">
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="form-group vitalbase-form-group">
+                <textarea name="message" id="message" class="form-control input-lg" placeholder="Message *" required ></textarea>
+                <p class="help-block text-danger"></p>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12">
+              <div id="success"></div>
+            </div>
+          </div>
+          <div class="clearfix"></div>
+          <div class="col-lg-12 text-center">
+            <button type="submit" class="btn btn-l btn-gradient uppercase">Send message</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+
+</section>
+
+<div id="map-canvas" style="height:420px;"></div>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAkzmkAMUBInKKM1LVwTacm7IXgPJQQetY"></script>
+<script type="text/javascript" src="{{site.url}}/js/map.js"></script>

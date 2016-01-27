@@ -1,0 +1,1 @@
+(function(e){e.fn.anchorscroll=function(t){var n={distance:0,vitesse:"slow"};var t=e.extend(n,t);return this.each(function(){e(this).click(function(){var n=e(this).attr("href");var r=e(n).offset().top-t.distance;e("html, body").animate({scrollTop:r},t.vitesse);return false})})}})(jQuery)

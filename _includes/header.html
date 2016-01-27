@@ -1,0 +1,19 @@
+<nav class="navbar navbar-default navbar-fixed-top menu-base menu-brand" >
+  <div class="container-fluid">
+    <div class="bg-menu hidden-xs"></div>
+    <div class="navbar-header"> <a class="navbar-toggle collapsed nav-brand-toggle" data-toggle="collapse" data-target="#main-menu-collapse" aria-expanded="false"> <i class="fa fa-bars fa-2x"></i> </a> <a class="navbar-brand logo" href="{{site.url}}/"><img class="img-responsive logo-img" src="//assetsvitalbase.s3.amazonaws.com/img/vitalbase-logo@2x.png" alt="Vitalbase logo"></a> </div>
+    <div class="collapse navbar-collapse" id="main-menu-collapse">
+      <ul class="nav navbar-nav" style="margin-left:64px;">
+        <li {% if page.url == '/products/vibby-oak/' %} class="active" {% endif %}><a href="{{site.url}}/products/vibby-oak">Vibby OAK</a></li>
+        <li{% if page.url == '/products/vibby-leaf/' %} class="active" {% endif %}><a href="{{site.url}}/products/vibby-leaf">Vibby LEAF</a></li>
+        <li {% if page.url == '/contact/' %} class="active" {% endif %}><a href="{{site.url}}/contact/">Contact</a></li>
+        <!--<li {% if page.url == '/camera-modules/' %} class="active" {% endif %}><a href="https://twitter.com/vitalbasefrance">@vitalbasefrance</a></li>-->
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="http://www.vitalbase.fr">FR</a></li>
+        <li><a href="http://www.vitalbase.co.uk">EN</a></li>
+        <li><a href="http://www.vitalbase.eu">EU</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
